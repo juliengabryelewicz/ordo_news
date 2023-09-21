@@ -1,0 +1,6 @@
+[Plugin]
+Id = ordo_news
+Name = Actualités
+Version = 1.0.0
+Description = Récupère les actualités via flux RSS
+Required = feedparser

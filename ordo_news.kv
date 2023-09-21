@@ -1,0 +1,15 @@
+<NewsScreen>:
+	id: news_screen
+	name: 'NewsScreen'
+	list_news: list_news
+	ScrollView:
+		size_hint:(1, 1)
+		pos_hint: {'top':1}
+		GridLayout:
+			cols:1
+			size_hint_y:None
+			height: self.minimum_height
+			Accordion:
+				orientation:'vertical'
+				id: list_news
+				size_hint:(1, None)
